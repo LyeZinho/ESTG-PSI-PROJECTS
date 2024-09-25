@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+root -> n1 -> n2 -> n3 -> NULL
+*/
+
 int main(){
     char nome[100];
     char email[100];
