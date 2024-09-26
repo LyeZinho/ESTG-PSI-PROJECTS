@@ -42,10 +42,5 @@ int main(){
     printf("N2: %s\n", root -> px -> px -> name);
     printf("N3: %s\n", root -> px -> px -> px -> name);
 
-
-    
-    
-    
-
     system("PAUSE");
 }
