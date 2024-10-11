@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .conteiner-col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .conteiner-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .conteiner-row-start{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .formData {
+            margin: 10%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="" class="formData">
+        <div class="conteiner-row">
+            <div>
+                <label for=formRadioMale">Masculino</label>
+                <input type="radio" name="formRadioMale">
+            </div>
+            <div>
+                <label for="formRadioFemale">Feminino</label>
+                <input type="radio" name="formRadioFemale">
+            </div>
+        </div>
+
+        <div class="conteiner-col">
+            <div class="conteiner-row-start">
+                <select>
+                    <option>Inglês</option>
+                    <option>Portugês</option>
+                    <option>Francês</option>
+                    <option>Espanhol</option>
+                    <option>Alemão</option>
+                </select>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

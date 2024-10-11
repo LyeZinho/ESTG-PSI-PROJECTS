@@ -1,15 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela de Carros</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <table>
-        <th>
-            
-        </th>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Ano</th>
+                <th>Cilindrada (em cm³)</th>
+                <th>Imagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BMW</td>
+                <td>2000 TI Coupe</td>
+                <td>1968</td>
+                <td>1991</td>
+                <td><img src="./bmw.png" alt="BMW 2000 TI Coupe"></td>
+            </tr>
+            <tr>
+                <td>Peugeot</td>
+                <td>208 II</td>
+                <td>2019</td>
+                <td>1499</td>
+                <td><img src="./peugout.jpg" alt="Peugeot 208 II"></td>
+            </tr>
+            <tr>
+                <td>Audi</td>
+                <td>A5 Sportback</td>
+                <td>2016</td>
+                <td>de 1798 a 3197</td>
+                <td><img src="./audi.jpg" alt="Audi A5 Sportback"></td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>

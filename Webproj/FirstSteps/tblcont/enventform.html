@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="" class="formData">
+        <div class="conteiner-col">
+            <div class="conteiner-row-start">
+                <label for="formEventName">Nome do Evento</label>
+                <input type="text" name="formEventName">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventDate">Data do Evento</label>
+                <input type="date" name="formEventDate">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventStartTime">Hora de Início</label>
+                <input type="time" name="formEventStartTime">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventEndTime">Hora de Fim</label>
+                <input type="time" name="formEventEndTime">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventDescription">Descrição do Evento</label>
+                <textarea name="formEventDescription" id="formEventDescription" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <div class="conteiner-col">
+            <div class="conteiner-row-start">
+                <label for="formEventLocationName">Nome do Local</label>
+                <input type="text" name="formEventLocationName">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventLocationAddress">Morada</label>
+                <textarea name="formEventLocationAddress" id="formEventLocationAddress" cols="30" rows="10"></textarea>
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventLocationCity">Cidade</label>
+                <input type="text" name="formEventLocationCity">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventLocationCountry">País</label>
+                <select name="formEventLocationCountry" id="formEventLocationCountry">
+                    <option value="Portugal">Portugal</option>
+                    <option value="Espanha">Espanha</option>
+                    <option value="França">França</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Alemanha">Alemanha</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="conteiner-col">
+            <div class="conteiner-row-start">
+                <label for="formEventOrganizerName">Nome do Organizador</label>
+                <input type="text" name="formEventOrganizerName">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventOrganizerEmail">Email do Organizador</label>
+                <input type="email" name="formEventOrganizerEmail">
+            </div>
+            <div class="conteiner-row-start">
+                <label for="formEventOrganizerPhone">Telefone do Organizador</label>
+                <input type="tel" name="formEventOrganizerPhone">
+            </div>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
